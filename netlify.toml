@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"  # Adjust this to your specific build command
+  publish = "resources"         # Directory to publish (adjust if needed)
+  environment = { PHP_VERSION = "8.1" }
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
